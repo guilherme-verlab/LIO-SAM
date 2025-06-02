@@ -481,8 +481,8 @@ public:
         // publish odometry
         nav_msgs::Odometry odometry;
         odometry.header.stamp = thisImu.header.stamp;
-        odometry.header.frame_id = odometryFrame;
-        odometry.child_frame_id = "odom_imu";
+        odometry.header.frame_id = "map";
+        odometry.child_frame_id = "base_link";
 
         // transform imu pose to ldiar
         gtsam::Pose3 imuPose = gtsam::Pose3(currentState.quaternion(), currentState.position());
