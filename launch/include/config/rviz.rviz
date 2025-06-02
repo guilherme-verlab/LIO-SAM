@@ -336,8 +336,8 @@ Visualization Manager:
         - Alpha: 0.30000001192092896
           Autocompute Intensity Bounds: true
           Autocompute Value Bounds:
-            Max Value: 17.28631019592285
-            Min Value: -4.711690902709961
+            Max Value: 17.976078033447266
+            Min Value: -4.713080883026123
             Value: true
           Axis: Z
           Channel Name: intensity
@@ -364,8 +364,8 @@ Visualization Manager:
         - Alpha: 0.30000001192092896
           Autocompute Intensity Bounds: true
           Autocompute Value Bounds:
-            Max Value: 17.294597625732422
-            Min Value: -4.711947917938232
+            Max Value: 25.91844940185547
+            Min Value: -5.27476692199707
             Value: true
           Axis: Z
           Channel Name: intensity
@@ -523,8 +523,8 @@ Visualization Manager:
     - Alpha: 0.30000001192092896
       Autocompute Intensity Bounds: true
       Autocompute Value Bounds:
-        Max Value: 17.30714225769043
-        Min Value: -3.708289623260498
+        Max Value: 17.28870391845703
+        Min Value: -3.749920129776001
         Value: true
       Axis: Z
       Channel Name: intensity
@@ -620,11 +620,11 @@ Visualization Manager:
       Class: rviz/PoseArray
       Color: 0; 170; 127
       Enabled: true
-      Head Length: 0.10000000149011612
-      Head Radius: 0.029999999329447746
+      Head Length: 1
+      Head Radius: 2
       Name: PoseArray
       Queue Size: 10
-      Shaft Length: 1
+      Shaft Length: 2
       Shaft Radius: 1
       Shape: Arrow (3D)
       Topic: /waypoints
@@ -648,7 +648,7 @@ Visualization Manager:
   Views:
     Current:
       Class: rviz/Orbit
-      Distance: 161.9998321533203
+      Distance: 152.906494140625
       Enable Stereo Rendering:
         Stereo Eye Separation: 0.05999999865889549
         Stereo Focal Distance: 1
@@ -656,9 +656,9 @@ Visualization Manager:
         Value: false
       Field of View: 0.7853981852531433
       Focal Point:
-        X: 4.533214569091797
-        Y: 0.6698670983314514
-        Z: 0.004625932779163122
+        X: 5.244461536407471
+        Y: 1.6623871326446533
+        Z: 0.005343995522707701
       Focal Shape Fixed Size: false
       Focal Shape Size: 0.05000000074505806
       Invert Z Axis: false
